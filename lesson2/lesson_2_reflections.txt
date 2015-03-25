@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You may also wish to run git status after you have created the file. You should see that now both files are listed as untracked files.
+
+When you've created and updated your reflections document for lesson 2
+
+###my work
+git stores metadata about files in .git  folder (hidden file folder in your repository)
+1-it is placed there when you use git checkout <tag_url>
+2-or when you set up your project in new direcory
+	git init     (initialise and create a new git repository)
+		0 commits and to check commits use commands
+	git log
+		error - fatal: bad default revision 'HEAD'
+		HEAD is git terminology for current commit -- above error message means that you can not view any commit history because there is no commit yet
+
+	git status
+		shows branch
+		git shows latest commit there is no commit so says Initial Commit
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area is related to git repository online and working directory is related to staging area. Its a level of abstractions one must pass through the other.
+
