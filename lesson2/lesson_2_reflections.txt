@@ -24,3 +24,7 @@ staging area is related to git repository online and working directory is relate
 
 (Q 3) How can you use the staging area to make sure you have one commit per logical change?
 Ans  Above can be achieved by saving all changes to staging area (git add) and the after logical change is xomplete then add it in repo (ie commit)
+
+(Q 4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans For example you want to expoeriment with the code and want to add a new feature while you also want to work on the previous code without affecting it. So now you can make 2 branches one for work and other for experiment . One will not affect the other branch.
+
