@@ -18,7 +18,9 @@ git stores metadata about files in .git  folder (hidden file folder in your repo
 		shows branch
 		git shows latest commit there is no commit so says Initial Commit
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+(Q 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area is related to git repository online and working directory is related to staging area. Its a level of abstractions one must pass through the other.
 
+(Q 3) How can you use the staging area to make sure you have one commit per logical change?
+Ans  Above can be achieved by saving all changes to staging area (git add) and the after logical change is xomplete then add it in repo (ie commit)
