@@ -28,3 +28,12 @@ Ans  Above can be achieved by saving all changes to staging area (git add) and t
 (Q 4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Ans For example you want to expoeriment with the code and want to add a new feature while you also want to work on the previous code without affecting it. So now you can make 2 branches one for work and other for experiment . One will not affect the other branch.
 
+(Q 5) How do the diagrams help you visualize the branch structure?
+Ans  Diagram give you clear picuter of commits which are reacheable which are in deatched head state where are you compare to other branches and work so that you dont mess up your or others work.
+Which branches contains which commit and where to create a branch
+
+
+(Q 6)What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Ans By diagram it is easy to visualise the dependency and history an interrealtion of different branches.
+
+
