@@ -1,0 +1,26 @@
+username abhishekIITG2013
+password akaabhu2012
+
+caching the password
+In Terminal, enter the following:
+
+1-git config --global credential.helper cache
+# Set git to use the credential memory cache
+
+To change the default password cache timeout, enter the following:
+2-git config --global credential.helper 'cache --timeout=3600'
+# Set the cache to timeout after 1 hour (setting is in seconds)
+
+create git hub repository from command line
+........…or create a new repository on the command line
+
+echo "# reflections" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/abhishekIITG2013/reflections.git
+git push -u origin master
+
+...........…or push an existing repository from the command line
+git remote add origin https://github.com/abhishekIITG2013/reflections.git
+git push -u origin master
