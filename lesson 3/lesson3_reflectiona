@@ -1,0 +1,12 @@
+(Q 1)Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Ans- I should know that other peoples code will not affect my code
+
+
+(Q 2) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	fork is like clone done by git hub at git hub servers
+	clone is cloning a git hub repository at you local machine 
+	branches is a history of commit starting from tip of the branch till the last where no parent of a commit exist.
+	(remember git will not resave the commits that were already present at git and when you checkout a branch you will get the tip of the branch)
+
+(Q 3) What is the benefit of having a copy of the last known state of the remote stored locally?
+	by it you can get the last time your local repo will be in sync or the git hub. You can now check that if some new commit have or have not made by some other person. By this you get conflict or not and your code will be update incorporated other person's code too.
